@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,7 +14,7 @@ let package = Package(
             targets: ["VaporSMTPKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Joannis/SMTPKitten.git", "0.1.0" ..< "0.2.0"),
+        .package(url: "https://github.com/petrpavlik/SMTPKitten.git", branch: "master"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
